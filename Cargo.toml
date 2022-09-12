@@ -9,4 +9,4 @@ repository = "https://github.com/tua-lua/tua/"
 license = "MIT"
 
 [workspace]
-members = []
+members = ["crates/*"]
