@@ -1,0 +1,14 @@
+[package]
+name = "tua_parser"
+version = "0.0.0"
+edition = "2021"
+license = "MIT"
+
+description = """
+Tua parser.
+"""
+
+[dependencies]
+once_cell = "1.14.0"
+tua_lexer = { path = "../tua_lexer" }
+url = "2.3.1"
